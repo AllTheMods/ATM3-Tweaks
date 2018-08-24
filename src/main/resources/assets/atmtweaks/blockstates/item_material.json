@@ -1,0 +1,71 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "builtin/generated",
+    "transform": "forge:default-item"
+  },
+  "variants": {
+    "type": {
+      "atm_star": {
+        "textures": {
+          "layer0": "atmtweaks:items/item_atm_star"
+        }
+      },
+      "invalid_item": {
+        "textures": {
+          "layer0": "atmtweaks:items/item_invalid"
+        }
+      },
+      "growth_essence": {
+        "textures": {
+          "layer0": "atmtweaks:items/item_growth_essence"
+        }
+      },
+      "industrium_alloy": {
+        "textures": {
+          "layer0": "atmtweaks:items/industrium"
+        }
+      },
+      "forged_industrium": {
+        "textures": {
+          "layer0": "atmtweaks:items/industrium"
+        }
+      },
+      "anima_mundi": {
+        "textures": {
+          "layer0": "atmtweaks:items/anima_mundi"
+        }
+      },
+      "orb_of_transcendence": {
+        "textures": {
+          "layer0": "atmtweaks:items/orb_of_transcendence"
+        }
+      },
+      "schwarzschild_sphere": {
+        "textures": {
+          "layer0": "atmtweaks:items/schwarzschild_sphere"
+        }
+      },
+      "unified_field_core": {
+        "textures": {
+          "layer0": "atmtweaks:items/unified_field_core"
+        }
+      },
+      "paradoxically_dense_component": {
+        "textures": {
+          "layer0": "atmtweaks:items/paradoxically_dense_component"
+        }
+      },
+      "dragon_essence": {
+        "textures": {
+          "layer0": "atmtweaks:items/item_dragon_essence"
+        }
+      },
+      "wither_essence": {
+        "textures": {
+          "layer0": "atmtweaks:items/item_wither_essence"
+        }
+      }
+    }
+  }
+}

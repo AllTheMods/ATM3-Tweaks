@@ -1,0 +1,16 @@
+[
+{
+  "modid": "atmtweaks",
+  "name": "ATM Tweaks",
+  "description": "Tweaks mod for the atm packs which mostly just adds items.",
+  "version": "1.1",
+  "mcversion": "1.12.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BloodWorkXGaming"],
+  "credits": "Ordinator for making most of the textures and coming up with the stuff",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
