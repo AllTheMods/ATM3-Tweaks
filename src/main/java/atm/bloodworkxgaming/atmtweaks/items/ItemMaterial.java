@@ -19,7 +19,7 @@ import javax.annotation.Nonnull;
 public class ItemMaterial extends Item implements IHasModel {
     public ItemMaterial() {
         this.setHasSubtypes(true);
-        this.setUnlocalizedName("item_material");
+        this.setTranslationKey("item_material");
         this.setRegistryName("item_material");
         this.setCreativeTab(ATMTweaks.creativeTabATM);
         Data.ITEMS.add(this);
@@ -30,8 +30,8 @@ public class ItemMaterial extends Item implements IHasModel {
     }
 
     @Override
-    public String getUnlocalizedName(ItemStack stack) {
-        return super.getUnlocalizedName() + "." + EnumItemMaterial.getFromMeta(stack.getMetadata()).getName();
+    public String getTranslationKey(ItemStack stack) {
+        return super.getTranslationKey() + "." + EnumItemMaterial.getFromMeta(stack.getMetadata()).getName();
     }
 
     @Override

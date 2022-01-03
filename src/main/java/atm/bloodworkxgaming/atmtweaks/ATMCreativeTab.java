@@ -11,7 +11,7 @@ public class ATMCreativeTab extends CreativeTabs {
     }
 
     @Override
-    public ItemStack getTabIconItem() {
+    public ItemStack createIcon() {
         return ItemMaterial.createItemStack(EnumItemMaterial.ATM_STAR, 1);
     }
 }
